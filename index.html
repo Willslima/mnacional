@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Museu Nacional
+    </title>
+    <meta charset="utf-8">
+
+    <!--Normalize css-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <!--Estilo customizado-->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+        <!--[if lt IE 9]>
+	        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+        <![endif]-->
+
+
+</head>
+<body>
+
+    <div id="container" > <!--inicio container-->
+        <header><!--Inicio header-->
+            <div id="logo">
+                <h1><a href="">Museu nacional</a></h1>
+            </div>
+
+            <nav><!--Nav-------------------->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Esposições</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Acervos</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav><!--Fim Nav--------------->
+        </header><!--Fim header-->
+
+        <div id="principal"><!--Principal-------->
+
+            <div id="conteudo"><!--conteudo-->
+                <section id="capa">
+                    <img src="imagens/museu.png">
+                </section>
+
+                <section id="postagens">
+
+                    <article id="video">
+                        <h3>Conheça o Museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/WIvMS5IH5RU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Mapa: Encontre o Museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7313.021567904575!2d-46.61375467798666!3d-23.586007618306787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5be87b8b646b%3A0x2011c5e69df48003!2sMuseu%20de%20Zoologia%20da%20Universidade%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1584643216808!5m2!1spt-BR!2sbr" width="310" height="170" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li>
+                                <a href="">1</a>
+                            </li>
+                            <li>
+                                <a href="">2</a>
+                            </li>
+                            <li>
+                                <a href="">3</a>
+                            </li>
+                            <li>
+                                <a href="">4</a>
+                            </li>
+                            <li>
+                                <a href="">5</a>
+                            </li>
+                            <li>
+                                <a href="">6</a>
+                            </li>
+                            <li>
+                                <a href=""><strong>Veja todos (65)</strong></a>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>História</h3>
+                        <p>O MUSEU
+                            O edifício histórico localizado no Parque da Independência, conhecido pelo nome de Museu do Ipiranga, tem como nome oficial Museu Paulista da Universidade de São Paulo. É uma instituição científica, cultural e educacional com atuação no campo da História e cujas atividades têm, como referência permanente, um acervo. O conjunto articulado dessas atividades é a curadoria. Envolve a formação e ampliação de coleções (por intermédio de doações, aquisições ou coleta de campo), sua conservação física, seu estudo e documentação bem como a comunicação, seja do acervo, seja do conhecimento que ele permite gerar, através de exposições, cursos, programas educativos e publicações.</p>
+                            <a href="">Leia Mais</a>
+                    </article>
+                </section>
+            </div><!--fim conteudo-->
+
+            <aside><!--aside começo-->
+                <section id="depoimento">
+                    <img src="imagens/depoimento.png">
+                </section>
+                
+                <section id="visita"><!--SEÇÃO VISITA------->
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            
+                            <label for="date">Data</label>
+                            <input class="campo" type="texto" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input class="campo" type="texto" style="width: 30px;"id="qtd" value="1">
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+
+                </section><!--FIM SEÇÃO VISITA------->
+
+                <section id="galeria">
+                    <h1>Galeria de fotos</h1>
+                    <a href="">
+                        <img src="imagens/imagem1.jpg" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="imagens/imagem2.jpg" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="imagens/imagem3.jpg" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="imagens/imagem4.jpg" height="93" width="93">
+                    </a>
+                </section>
+
+            
+            </aside><!--aside fim-->
+            
+            <footer style="clear: both;">
+                <p><a href="">Home</a>
+                    <a href="">Exposições</a>
+                    <a href="">Pesquisa</a>
+                    <a href="">Acervo</a>
+                    <a href="">Vídeos</a>
+                    <a href="">Fotos</a>
+                <a href="">Contato</a></p>
+
+                <p>&copy; Todos direitos reservados. WillSlima 2020.</p>
+            </footer> 
+
+        </div><!--Fim Principal-------->
+    
+    </div><!--Fim container-->
+
+</body>
+</html>
